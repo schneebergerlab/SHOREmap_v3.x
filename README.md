@@ -14,8 +14,10 @@ Sun et al. (2015), "SHOREmap v3.0: fast and accurate identification of causal mu
 Schneeberger et al. (2009), "SHOREmap: simultaneous mapping and mutation identification by deep sequencing", Nature Methods.
 
 For more information on SHOREmap,
+
 B. Hartwig et al.(2012), "Fast isogenic mapping-by-sequencing of EMS-induced mutant bulks", Plant Physiology.
 Galvão et al. (2012), "Synteny-based Mapping-by-Sequencing enabled by Targeted Enrichment", Plant Journal.
 
 For more general information on mapping-by-sequencing,
+
 Schneeberger K (2014). Using next-generation sequencing to isolate mutant genes from forward genetic screens. Nature Rev. Genet.. 
