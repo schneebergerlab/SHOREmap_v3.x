@@ -1,0 +1,37 @@
+Update:
+
+2015-Jun-16 14:26	version 3.1
+			SHOREmap convert  : one more function for converting shore pileup to shore consensus_summary;
+			SHOREmap backcross: Walson score interval for proportion of mut-base-coverage.
+			
+2015-OCT-12 16:45       version 3.2
+			SHOREmap idFilter : filters indels in one sample according to another;
+			SHOREmap annotate : can perform visualization of annotations with -vis and --consen options.	
+			
+2016-MAR-04 16:46       version 3.3
+			SHOREmap annotate : a bug when reading gff info about phase of codons is fixed (for some genes
+			                    with length of CDS not being multiple of 3).
+2016-Apr-12 10:50       version 3.3
+                        SHOREmap create   : a potential bug when reading chr-markers info is fixed (for chromosome ids
+                                            with '.' in naming - lines 192,193,196,202 of find_marker_pos_2parents_v3.cpp).			                    
+2016-Oct-05 13:57       version 3.4
+                        SHOREmap extract  : work with vcf4.2 (DP and AD given but without DP4)
+                        SHROEmap annotate : a potential bug in translate_as_string fixed (codon in lower cases missed before).
+2017-May-12 13:46       version 3.5 
+                        SHROEmap annotate : read chr-id in fasta file as the first word after '>' but before a ' '.
+                                            potential bug when doing SHOREmap annotate.
+                                            check coding on str.substr(): assert(EXPRESSION) before it. 
+                        SHOREmap create   : potential bug for creating markers (some leading to wrong AF at markers fixed)
+                        Compiling with disline-11.0.
+2018-Feb-01 14:04       version 3.6    
+                        SHOREmap annotate : conversion on deletions (, coordinate_end) updated
+                                            coordinate_start are real start position
+                                            coordinate_end   are real end   position	 
+			SHOREmap annotate : read GFF with control on "ID=exon_1_1;Parent=mRNA_1;"  - TODO  
+			SHOREmap annotate : potential bugs when annotating indels fixed    
+			SHOREmap convert  : calculating AF with DP4 intead of DP - suggested by Emily Wynn - University of Nebraska–Lincoln
+			COPYING_dislin    : added. Note that dislin is only free for non-commercial use, and thus SHOREmap.
+			                    For commercial use, please require license from: http://www.mps.mpg.de/dislin/license
+			
+
+                       
